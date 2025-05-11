@@ -156,13 +156,11 @@ body {
 .footer-container {
   display: flex;
   justify-content: space-between;
-  padding-left: 140px;
-  padding-right: 156px;
+  padding: 0 156px 0 140px;
 }
 
 .footer-logo {
-  padding-top: 73px;
-  padding-right: 130px;
+  padding: 70px 130px 0 0;
   width: 168px;
   height: 52px;
 }
@@ -216,6 +214,7 @@ body {
 
 .input-container .input-icon {
   display: flex;
+
   width: 16px;
   right: 215px;
   top: 195px;
