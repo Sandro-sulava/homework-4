@@ -173,13 +173,14 @@ body {
 .footer-bottom {
   padding-top: 253px;
   color: var(--color);
+  width: 175px;
 }
 
 .footer-logo .footer-description {
   margin-top: 16px;
   font-size: 14px;
   color: var(--color);
-  max-width: 168px;
+  width: 168px;
 }
 
 .footer-links-section {
@@ -202,6 +203,9 @@ body {
   flex-direction: column;
   gap: 12px;
 }
+.footer-column li {
+  width: 168px;
+}
 
 .footer-column ul li {
   color: var(--color);
@@ -220,6 +224,6 @@ body {
   display: flex;
   width: 16px;
   right: 215px;
-  top: 180px;
+  top: 195px;
   position: absolute;
 }
