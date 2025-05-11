@@ -127,8 +127,16 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: ;
+}
 
 /* ! Main */
+
+@font-face {
+  font-family: "deca";
+  src: url(../assets/fonts/LexendDeca.ttf);
+}
 
 :root {
   --bg-color: #232340;
@@ -138,7 +146,7 @@ table {
 }
 
 body {
-  font-family: "deca", "Arial Narrow" Arial, sans-serif;
+  font-family: "deca", "Arial Narrow", Arial, sans-serif;
   background-color: var(--bg-color);
   display: flex;
 }
@@ -179,8 +187,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding-top: 95px;
-
-  width: 1000px;
+  width: 1440px;
 }
 
 .footer-column h4 {
